@@ -1,0 +1,146 @@
+{% extends 'calc/main.html' %}
+
+{% block content %}
+
+<div class="container ">
+    <div class="row pt-5">
+        <div class="col-md-12 bg-success output" style="height: 100px;">
+            <div class="data-previous-operand  mx-auto"></div>
+            <div class="data-current-operand "></div>
+
+        </div> 
+
+    </div>
+
+   
+    <div class="row bg-dark">
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number" id="nine">9</button>
+        </div>
+            
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number" id="eight">8</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number" id="seven">7</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger"></button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-operation"id="multiplication">*</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-operation"id="addition">+</button>
+        </div>
+            
+           
+        
+    </div>
+
+
+    <div class="row bg-dark">
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="six">6</button>
+        </div>
+            
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="five">5</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="four">4</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger"></button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-operation"id="minus">-</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-operation"id="divide">/</button>
+        </div>
+            
+           
+        
+    </div>
+
+
+
+    <div class="row bg-dark">
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="three">3</button>
+        </div>
+            
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="two">2</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="one">1</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger"></button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-operation"id="remainder">%</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-equals"id="equals">=</button>
+        </div>
+            
+           
+        
+    </div>
+
+
+
+    <div class="row bg-dark">
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="zero">0</button>
+        </div>
+            
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-number"id="dot">.</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-delete">Del</button>
+        </div>
+
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger"></button>
+        </div>
+
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger data-all-clear">AC</button>
+        </div>
+
+        <div class="col">
+            <button type="button" class="btn btn-outline-danger"></button>
+        </div>
+            
+           
+        
+    </div>
+
+    
+
+
+</div>
+
+
+
+{% endblock content%}
